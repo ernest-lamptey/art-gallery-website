@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Modern Art Gallery</title>
 </head>
 <body>
     <section class="title-section">
@@ -15,21 +15,18 @@
             <rect width="450" height="800" style="fill:currentColor"/>
         </svg>
         <img src="./assets/desktop/image-hero@2x.jpg" alt="Man and woman looking at an image">
-        <h1>Modern <br> Art Gallery</h1>
+        <h1 id="mask">Modern <br> Art Gallery</h1>
+        <h1 id="unmask">Modern <br> Art Gallery</h1>
         <p>The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. 
         Will these pieces inspire you? Visit us and find out.</p>
-        
-<!-- Continue fixing the button by using a p tag and the arrow for the other one -->
-            <a href="location.html">
-                <div class="button">
-                    <p>Our Location</p>
-                    <svg class="right-side" width="56" height="72">
-                        <rect width="56" height="72" style="fill:currentColor"/>
-                    </svg>
-                </div>
-            </a>
-            <p>Our Location</p>
-        
+        <a href="location.html">
+            <div id="btn-left-side">
+                <p id="btn-text">Our Location</p>  
+            </div>
+            <div id="btn-right-side">
+                <svg width="10" height="24" xmlns="http://www.w3.org/2000/svg"><path stroke="#FFF" fill="none" d="m1 0 8 12-8 12"/></svg>
+            </div>
+        </a>
     </section>
     <section id="gallery" class="gallery-section">
         <div class="gallery-section-1">
