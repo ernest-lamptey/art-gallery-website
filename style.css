@@ -481,7 +481,7 @@ a:hover #btn-left-side-loc {
 
         /* footer */
     .footer-main {
-        width: 768px;
+        width: 100%;
         height: 216px;
     }
 
@@ -502,7 +502,7 @@ a:hover #btn-left-side-loc {
     }
 
     #map-section {
-        width: 768px;
+        width: 100%;
     }
 
     .map {
@@ -510,7 +510,7 @@ a:hover #btn-left-side-loc {
     }
 
     #location-info {
-        width: 768px;
+        width: 100%;
         height: 436px;
     }
 
